@@ -33,3 +33,31 @@ section p, small{
     background-color: aliceblue;
     font-weight: 500;
 }
+/*  =========================== student section end ==================  */
+.asked-question{
+    width: 60%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+/* mobil responsive */
+@media screen and (max-width:576px){
+    .ready-join, .register{
+        text-align: center;
+    }
+    .student .student-title{
+        text-align: center;
+    }
+}
+/* tablate Responsive */
+@media screen and (min-width:577px) and (max-width:991px){
+    .ready-join, .register{
+        text-align: center;
+    }
+}
