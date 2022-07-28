@@ -15,6 +15,9 @@ a .btn:active:focus{
     outline: none;
     box-shadow: none;
 }
+section p, small{
+    color: rgb(100, 98, 98);
+}
 /*  ================ header section end ==================== */
 #courses .card-body .card-title{
     font-size: 19px;
@@ -24,3 +27,9 @@ a .btn:active:focus{
     line-height: 18px;
 }
 /* ================== courses section end ============ */
+/* ===================== emplore working section end ========================= */
+.register .btn{
+    border: 1px solid gray;
+    background-color: aliceblue;
+    font-weight: 500;
+}
