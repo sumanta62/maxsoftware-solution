@@ -18,6 +18,9 @@ a .btn:active:focus{
 section p, small{
     color: rgb(100, 98, 98);
 }
+section{
+    margin-top: 40px;
+}
 /*  ================ header section end ==================== */
 #courses .card-body .card-title{
     font-size: 19px;
@@ -38,7 +41,10 @@ section p, small{
     width: 60%;
     margin: auto;
 }
-
+/* ===================== Asked question end ================== */
+.company-img img{
+    width: 80%;
+}
 
 
 
@@ -53,6 +59,9 @@ section p, small{
     }
     .student .student-title{
         text-align: center;
+    }
+    .asked-question{
+        width: 90%;
     }
 }
 /* tablate Responsive */
